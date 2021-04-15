@@ -14,7 +14,7 @@
     </style>
   </head>
   <body> 
-    <br><h2>Hello User</h2><br>
+    <br><h3 id="melon">null</h3><br>
     <div class="container">
       <a href="./melon">
       <div style="width:50%" class="card">
@@ -22,5 +22,9 @@
       </div>
       </a>
     </div>
+    <script>
+      var ramount = localStorage.robux;
+      document.getElementById('melon').innerHTML = "Hello User, you have" + ramount + "points";
+    </script>
   </body>
 </html>
